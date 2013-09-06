@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
   s.summary     = "RubyJS asset pipeline provider/wrapper"
   s.description = "This gem provides RubyJS, a port of the Ruby core-lib in JavaScript, for your Rails application."
 
+  s.license     = 'MIT'
+
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }

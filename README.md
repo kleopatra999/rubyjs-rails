@@ -17,6 +17,10 @@ Easy as pie.
 
 # Changelog
 
+### 0.7.2.2
+
+- Add MIT Licence to gemspec
+
 ### 0.7.2.1
 
 - Make it compatible with Rails 4 version (Now is an instance of `Gem::Version`)
